@@ -13,3 +13,7 @@ dateformat -%d-%m-%Y  # date formate
 missingok             # by this you'll not get erro msg in case you change the logs
 notifempty            # if log file in 0 size then it'll not rotate
 }
+
+
+# for testing script use this cmd
+$ logrotate -f server_log
